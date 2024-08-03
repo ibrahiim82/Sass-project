@@ -1,5 +1,5 @@
 .nav {
-  border: 2px solid red;
+  /*  border: 2px solid red; */
   height: 10vh;
 
   &__list {
@@ -18,7 +18,7 @@
     font-size: 1rem;
     font-family: $font-family;
     font-weight: 500;
-    transition: all 0.5s;
+    @include soft(1s);
 
     &:hover {
       color: blue;
